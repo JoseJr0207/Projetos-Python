@@ -5,6 +5,8 @@
 
 # arquivo.close()
 
+
+
 with open("vendas.txt", "r") as arquivo:
     # fazer o que quiser com o arquivo
     infos = arquivo.readlines()
